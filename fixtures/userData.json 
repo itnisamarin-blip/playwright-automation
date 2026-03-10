@@ -1,0 +1,18 @@
+{
+  "createUser": {
+    "name": "Somchai Jaidee",
+    "job": "QA Engineer"
+  },
+  "updateUser": {
+    "name": "Somchai Jaidee Updated",
+    "job": "Senior QA Engineer"
+  },
+  "singleUserId": 2,
+  "deleteUserId": 2,
+  "expectedSingleUser": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver"
+  }
+}
