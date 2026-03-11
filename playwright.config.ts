@@ -5,7 +5,8 @@ export default defineConfig({
   timeout: 30000,
   reporter: [
     ['html', { outputFolder: 'playwright-report' }],
-    ['list']
+    ['list'],
+    ['junit', { outputFile: 'test-results/results.xml' }]
   ],
   use: {
     baseURL: 'https://reqres.in',
