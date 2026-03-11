@@ -9,7 +9,7 @@ test.describe('Reqres API Testing', () => {
   test('Get user profile success', async ({ request }) => {
 
     const response = await request.get(
-      ' https://reqres.in/api/users/12',
+      'https://reqres.in/api/users/12',
       { headers }
     );
 
